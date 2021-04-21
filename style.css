@@ -119,6 +119,7 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  overflow: hidden;
 }
 
 .nav .switch-lang {
@@ -220,7 +221,7 @@ h6 {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    grid-gap: 10vh;
+    grid-gap: 5vh;
   }
   .nav .switch-lang {
     display: block;
