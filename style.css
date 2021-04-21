@@ -197,7 +197,7 @@ h6 {
   .nav {
     padding: 60px 30px;
     position: fixed;
-    top: -100%;
+    top: -100vh;
     left: 0;
     width: 100vw;
     height: 100vh;
@@ -291,7 +291,7 @@ h6 {
   }
   .me__logo {
     height: calc((100vw - 60px) / 0.66);
-    background-image: url("/img/me-mobile.png");
+    background-image: url("img/me-mobile.png");
   }
   .menu {
     display: -webkit-box;
