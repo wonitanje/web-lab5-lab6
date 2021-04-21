@@ -106,6 +106,7 @@ h6 {
 .nav {
   height: 88px;
   border-bottom: 1px #828282 solid;
+  overflow: hidden;
 }
 
 .nav__inner {
@@ -119,7 +120,6 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  overflow: hidden;
 }
 
 .nav .switch-lang {
