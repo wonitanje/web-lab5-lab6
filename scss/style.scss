@@ -1,0 +1,69 @@
+@import 'vendor/null';
+@import 'vendor/variables';
+@import 'blocks/fonts';
+@import 'blocks/header';
+@import 'blocks/about';
+@import 'blocks/skills';
+@import 'blocks/portfolio';
+@import 'blocks/footer';
+
+html {
+  font-family: 'Gilroy';
+  font-weight: 400;
+  font-size: 18px;
+  overflow-x: hidden;
+
+  &.lock {
+    overflow: hidden;
+  }
+}
+
+body {
+  & > * {
+    padding: 100px 0;
+
+    &:nth-child(odd) {
+      background-color: $firsty;
+    }
+    &:nth-child(even) {
+      background-color: $secondary;
+    }
+  }
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+  width: calc(100vw - 60px);
+}
+
+.flexblock {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title {
+  margin: 0 0 24px;
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.text {
+  margin: 0 0 2.5em;
+  text-align: center;
+}
+
+.subtext {
+  color: $grey;
+  font-size: 14px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

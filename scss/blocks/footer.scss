@@ -1,0 +1,26 @@
+.contacts {
+  .container {
+    max-width: 470px;
+  }
+
+  &__btn {
+    margin: 0 auto;
+    padding: 13px 28px;
+    width: auto;
+    color: $white;
+    font-weight: 700;
+    border-radius: 2em;
+    background-color: $black;
+  }
+}
+.social {
+  margin:  5em auto 2.5em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 500px) {
+  .contacts__btn {
+    width: 100%;
+  }
+}

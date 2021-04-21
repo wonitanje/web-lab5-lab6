@@ -1,0 +1,11 @@
+.about {
+  text-align: center;
+
+  .container {
+    max-width: 480px;
+  }
+
+  &__content {
+    margin: 0 auto;
+  }
+} 

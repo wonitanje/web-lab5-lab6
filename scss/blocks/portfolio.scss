@@ -1,0 +1,16 @@
+.portfolio {
+
+  &__item {
+    margin: 0 0 100px;
+  }
+
+  &__logo {
+    width: 100%;
+  }
+
+  .text {
+    margin: 2.5em 0 0;
+    text-decoration: underline;
+  }
+}
+
