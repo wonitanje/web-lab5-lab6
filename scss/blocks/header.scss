@@ -57,7 +57,8 @@
 }
 .switch-lang {
   font-size: 16px;
-  writing-mode: sideways-lr;
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
   text-orientation: mixed;
   text-transform: uppercase;
   color: $grey;
@@ -67,7 +68,7 @@
     cursor: pointer;
 
     &:first-child {
-      border-top: 2px $black solid;
+      border-bottom: 2px $black solid;
     }
   }
 
@@ -94,32 +95,26 @@
     &__inner {
       position: relative;
       flex-direction: column;
-      justify-content: flex-start;
       align-items: flex-start;
-      grid-gap: 5vh;
     }
 
     .switch-lang {
-      display: block;
-      align-self: end;
+      display: flex;
+      align-items: flex-end;
+      width: 100%;
       font-size: 34px;
-      text-align: right;
-      writing-mode: vertical-lr;
-
-      & > span:first-child {
-        border-top: none;
-        border-bottom: 2px $black solid;
-      }
+      text-align: right;  
+      transform: none;
     }
 
     .menu__close {
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       position: absolute;
       top: 0;
       right: 0;
-      display: block;
       width: 22px;
       height: 22px;
       cursor: pointer;

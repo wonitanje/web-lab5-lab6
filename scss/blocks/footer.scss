@@ -20,7 +20,14 @@
 }
 
 @media screen and (max-width: 500px) {
-  .contacts__btn {
-    width: 100%;
+  .contacts {
+
+    &__btn {
+      width: 100%;
+    }
+
+    .subtext {
+      font-size: 18px;
+    }
   }
 }

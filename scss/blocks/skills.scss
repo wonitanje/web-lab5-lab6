@@ -4,6 +4,7 @@
   }
 
   &__item {
+    margin: 0 0 80px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -14,7 +15,7 @@
 
   &__logo {
     height: 55%;
-    object-fit: cover;
+    object-fit: scale-down;
   }
 
   &__name {
@@ -46,7 +47,23 @@
     .flexblock {
       flex-direction: column;
       align-items: center;
-      grid-gap: 80px 0;
+    }
+
+    &__item {
+      margin: 0 0 80px;
+    }
+  }
+
+  @supports (grid-gap: 80px 0) {
+    .skills {
+      .flexblock {
+        grid-gap: 80px 0;
+      }
+
+      &__item {
+        margin: 0;
+      }
     }
   }
 }
+
