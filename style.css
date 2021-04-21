@@ -409,6 +409,10 @@ h6 {
   width: 100%;
 }
 
+.portfolio .title {
+  margin: 0 0 60px;
+}
+
 .portfolio .text {
   margin: 2.5em 0 0;
   text-decoration: underline;
