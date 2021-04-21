@@ -5,13 +5,13 @@
 .nav {
   height: 88px;
   border-bottom: 1px $grey solid;
+  overflow: hidden;
 
   &__inner {
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    overflow: hidden;
 	}
 
   .switch-lang {
