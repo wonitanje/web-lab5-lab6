@@ -49,8 +49,8 @@
   &__logo {
     width: 100%;
     height: calc(Min(100vw, 940px) / 2.4);
-    background-image: url('img/me.jpg');
-    background-position: center;
+    background-image: url('img/me.jpeg');
+    background-position: 50% 45%;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -155,8 +155,9 @@
     }
 
     &__logo {
-      height: calc((100vw - 60px) / 0.66);
-      background-image: url('img/me-mobile.png');
+      height: 478px;
+      background-position: center;
+      // background-image: url('img/me-mobile.png');
     }
   }
   .menu {
